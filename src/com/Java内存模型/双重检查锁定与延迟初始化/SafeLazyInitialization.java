@@ -1,4 +1,4 @@
-package com;
+package com.Java内存模型.双重检查锁定与延迟初始化;
 
 public class SafeLazyInitialization {
     private static SafeLazyInitialization instance;
