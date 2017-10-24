@@ -1,4 +1,4 @@
-package com;
+package com.Java内存模型.volatile的内存语义;
 
 public class VolatileFeaturesExample {
 //    volatile long vl = 0L;
