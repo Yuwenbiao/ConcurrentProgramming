@@ -1,11 +1,9 @@
 package com;
 
-import org.junit.Test;
 
 import java.util.concurrent.locks.Lock;
 
 public class TwinsLockTest {
-    @Test
     public void test() {
         final Lock lock = new TwinsLock();
         class Worker extends Thread {

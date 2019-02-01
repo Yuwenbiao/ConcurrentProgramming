@@ -1,7 +1,5 @@
 package com;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -13,12 +11,10 @@ public class FairAndUnfairTest {
     private static Lock fairLock = new ReentrantLock2(true);
     private static Lock unfairLock = new ReentrantLock2(false);
 
-    @Test
     public void fair() {
         testLock(fairLock);
     }
 
-    @Test
     public void unfair() {
         testLock(unfairLock);
     }
